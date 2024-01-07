@@ -19,9 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        Label1.font = UIFont(name: "HelveticaNeue", size: 17)
-        Label2.font = UIFont(name: "HelveticaNeue", size: 17)
-        Label3.font = UIFont(name: "HelveticaNeue", size: 17)
+        Label1.font = UIFont(name: "Futura", size: 17)
+        Label2.font = UIFont(name: "Futura", size: 17)
+        Label3.font = UIFont(name: "Futura", size: 17)
     }
     
     func changeColor() -> UIColor{
