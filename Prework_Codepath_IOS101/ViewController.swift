@@ -8,10 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var Label1: UILabel!
+    
+    @IBOutlet weak var Label2: UILabel!
+    
+    @IBOutlet weak var Label3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        Label1.font = UIFont(name: "HelveticaNeue", size: 17)
+        Label2.font = UIFont(name: "HelveticaNeue", size: 17)
+        Label3.font = UIFont(name: "HelveticaNeue", size: 17)
     }
     
     func changeColor() -> UIColor{
@@ -28,5 +38,13 @@ class ViewController: UIViewController {
             view.backgroundColor = randomColor
     }
     
+    
+    @IBAction func changeTextColor(_ sender: UIButton) {
+        let randomeColor = changeColor()
+        
+        Label1.textColor = randomeColor
+        Label2.textColor = randomeColor
+        Label3.textColor = randomeColor
+    }
 }
 

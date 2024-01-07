@@ -24,6 +24,7 @@
 		EE07F52B2B392ABE00627424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE07F52E2B392ABE00627424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE07F5302B392ABE00627424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE07F5362B39321000627424 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		EE07F5162B392ABC00627424 = {
 			isa = PBXGroup;
 			children = (
+				EE07F5362B39321000627424 /* README.md */,
 				EE07F5212B392ABC00627424 /* Prework_Codepath_IOS101 */,
 				EE07F5202B392ABC00627424 /* Products */,
 			);
